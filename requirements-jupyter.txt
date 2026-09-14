@@ -1,0 +1,4 @@
+jupyter>=1.0
+notebook>=7.0
+jupyterlab>=4.0
+ipywidgets>=8.0

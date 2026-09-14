@@ -1,0 +1,23 @@
+Vérification des opérations manuelles
+=============================================
+X =
+tensor([[0., 1., 2.],
+        [3., 4., 5.],
+        [6., 7., 8.]])
+K =
+tensor([[0., 1.],
+        [2., 3.]])
+Corrélation manuelle =
+tensor([[19., 25.],
+        [37., 43.]])
+Corrélation PyTorch =
+tensor([[19., 25.],
+        [37., 43.]])
+Max-pooling manuel = 4.0000
+Max-pooling PyTorch = 4.0000
+Average-pooling manuel = 2.0000
+Average-pooling PyTorch = 2.0000
+
+Exemple de calcul dimensionnel Fashion-MNIST 28x28, kernel=3, stride=1, padding=0:
+Sortie convolution = floor((28 - 3 + 2*0)/1) + 1 = 26
+Après pooling 2x2 = 13

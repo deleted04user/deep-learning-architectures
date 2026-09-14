@@ -1,0 +1,17 @@
+Named parameters du modèle
+========================================
+fc1.weight: shape=(64, 30), requires_grad=True
+fc1.bias: shape=(64,), requires_grad=True
+fc2.weight: shape=(32, 64), requires_grad=True
+fc2.bias: shape=(32,), requires_grad=True
+fc3.weight: shape=(2, 32), requires_grad=True
+fc3.bias: shape=(2,), requires_grad=True
+
+Clés du state_dict
+========================================
+fc1.weight: shape=(64, 30)
+fc1.bias: shape=(64,)
+fc2.weight: shape=(32, 64)
+fc2.bias: shape=(32,)
+fc3.weight: shape=(2, 32)
+fc3.bias: shape=(2,)

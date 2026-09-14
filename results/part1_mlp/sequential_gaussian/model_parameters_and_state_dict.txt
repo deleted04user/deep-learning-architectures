@@ -1,0 +1,17 @@
+Named parameters du modèle
+========================================
+0.weight: shape=(64, 30), requires_grad=True
+0.bias: shape=(64,), requires_grad=True
+2.weight: shape=(32, 64), requires_grad=True
+2.bias: shape=(32,), requires_grad=True
+4.weight: shape=(2, 32), requires_grad=True
+4.bias: shape=(2,), requires_grad=True
+
+Clés du state_dict
+========================================
+0.weight: shape=(64, 30)
+0.bias: shape=(64,)
+2.weight: shape=(32, 64)
+2.bias: shape=(32,)
+4.weight: shape=(2, 32)
+4.bias: shape=(2,)

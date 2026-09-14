@@ -1,0 +1,10 @@
+{
+  "vocab_size": 1000,
+  "max_len": 40,
+  "pad_index": 0,
+  "unk_index": 1,
+  "target_names": [
+    "rec.autos",
+    "sci.med"
+  ]
+}

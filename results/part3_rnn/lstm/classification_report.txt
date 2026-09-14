@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+   rec.autos       0.00      0.00      0.00        15
+     sci.med       0.50      1.00      0.67        15
+
+    accuracy                           0.50        30
+   macro avg       0.25      0.50      0.33        30
+weighted avg       0.25      0.50      0.33        30

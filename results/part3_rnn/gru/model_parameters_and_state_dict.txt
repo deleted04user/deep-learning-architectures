@@ -1,0 +1,19 @@
+Named parameters du modèle
+========================================
+embedding.weight: shape=(1000, 64), requires_grad=True
+rnn.weight_ih_l0: shape=(384, 64), requires_grad=True
+rnn.weight_hh_l0: shape=(384, 128), requires_grad=True
+rnn.bias_ih_l0: shape=(384,), requires_grad=True
+rnn.bias_hh_l0: shape=(384,), requires_grad=True
+fc.weight: shape=(2, 128), requires_grad=True
+fc.bias: shape=(2,), requires_grad=True
+
+Clés du state_dict
+========================================
+embedding.weight: shape=(1000, 64)
+rnn.weight_ih_l0: shape=(384, 64)
+rnn.weight_hh_l0: shape=(384, 128)
+rnn.bias_ih_l0: shape=(384,)
+rnn.bias_hh_l0: shape=(384,)
+fc.weight: shape=(2, 128)
+fc.bias: shape=(2,)

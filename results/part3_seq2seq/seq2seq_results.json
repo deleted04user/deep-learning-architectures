@@ -1,0 +1,73 @@
+{
+  "history": {
+    "loss": [
+      3.8098963578542073
+    ]
+  },
+  "examples": [
+    {
+      "source": "i am a student",
+      "reference": "je suis un etudiant",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    },
+    {
+      "source": "he is a teacher",
+      "reference": "il est un professeur",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    },
+    {
+      "source": "she likes music",
+      "reference": "elle aime la musique",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.1111111111111111,
+      "bleu1_beam": 0.1111111111111111
+    },
+    {
+      "source": "we study deep learning",
+      "reference": "nous etudions le deep learning",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    },
+    {
+      "source": "the model is training",
+      "reference": "le modele est en entrainement",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    },
+    {
+      "source": "the data is clean",
+      "reference": "les donnees sont propres",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.1111111111111111,
+      "bleu1_beam": 0.1111111111111111
+    },
+    {
+      "source": "i like artificial intelligence",
+      "reference": "j aime l intelligence artificielle",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    },
+    {
+      "source": "this result is good",
+      "reference": "ce resultat est bon",
+      "greedy": "la donnees la la donnees la la donnees la",
+      "beam_search": "la la donnees la la donnees la la donnees",
+      "bleu1_greedy": 0.0,
+      "bleu1_beam": 0.0
+    }
+  ]
+}

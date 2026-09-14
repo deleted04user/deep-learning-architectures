@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.5,
+  "precision_macro": 0.25,
+  "recall_macro": 0.5,
+  "f1_macro": 0.3333333333333333,
+  "best_val_accuracy": 0.4666666666666667,
+  "trainable_parameters": 163586,
+  "device": "cpu"
+}

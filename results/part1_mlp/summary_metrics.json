@@ -1,0 +1,70 @@
+{
+  "experiments": [
+    {
+      "model": "sequential",
+      "initialization": "gaussian",
+      "accuracy": 0.868421052631579,
+      "precision_macro": 0.8641891891891892,
+      "recall_macro": 0.8530953160825417,
+      "f1_macro": 0.857914416285833,
+      "best_val_accuracy": 0.9210526315789473,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    },
+    {
+      "model": "sequential",
+      "initialization": "constant",
+      "accuracy": 0.8771929824561403,
+      "precision_macro": 0.8720347477447377,
+      "recall_macro": 0.864723223059286,
+      "f1_macro": 0.8680555555555556,
+      "best_val_accuracy": 0.9210526315789473,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    },
+    {
+      "model": "sequential",
+      "initialization": "xavier",
+      "accuracy": 0.7631578947368421,
+      "precision_macro": 0.7486486486486486,
+      "recall_macro": 0.7410743530953161,
+      "f1_macro": 0.7442459493144993,
+      "best_val_accuracy": 0.7719298245614035,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    },
+    {
+      "model": "custom_class",
+      "initialization": "gaussian",
+      "accuracy": 0.8157894736842105,
+      "precision_macro": 0.8858695652173914,
+      "recall_macro": 0.7558139534883721,
+      "f1_macro": 0.7740443605474281,
+      "best_val_accuracy": 0.8421052631578947,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    },
+    {
+      "model": "custom_class",
+      "initialization": "constant",
+      "accuracy": 0.8859649122807017,
+      "precision_macro": 0.8834459459459459,
+      "recall_macro": 0.8717654765804127,
+      "f1_macro": 0.8768591607810553,
+      "best_val_accuracy": 0.9210526315789473,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    },
+    {
+      "model": "custom_class",
+      "initialization": "xavier",
+      "accuracy": 0.7894736842105263,
+      "precision_macro": 0.7796451914098973,
+      "recall_macro": 0.7943006878480183,
+      "f1_macro": 0.7827881867259447,
+      "best_val_accuracy": 0.8508771929824561,
+      "trainable_parameters": 4130,
+      "device": "cpu"
+    }
+  ]
+}

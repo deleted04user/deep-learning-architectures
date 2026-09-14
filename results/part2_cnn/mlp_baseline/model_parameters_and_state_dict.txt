@@ -1,0 +1,17 @@
+Named parameters du modèle
+========================================
+net.1.weight: shape=(256, 64), requires_grad=True
+net.1.bias: shape=(256,), requires_grad=True
+net.4.weight: shape=(128, 256), requires_grad=True
+net.4.bias: shape=(128,), requires_grad=True
+net.6.weight: shape=(10, 128), requires_grad=True
+net.6.bias: shape=(10,), requires_grad=True
+
+Clés du state_dict
+========================================
+net.1.weight: shape=(256, 64)
+net.1.bias: shape=(256,)
+net.4.weight: shape=(128, 256)
+net.4.bias: shape=(128,)
+net.6.weight: shape=(10, 128)
+net.6.bias: shape=(10,)

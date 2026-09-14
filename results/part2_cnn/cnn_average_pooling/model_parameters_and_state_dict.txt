@@ -1,0 +1,21 @@
+Named parameters du modèle
+========================================
+conv1.weight: shape=(32, 1, 3, 3), requires_grad=True
+conv1.bias: shape=(32,), requires_grad=True
+conv2.weight: shape=(64, 32, 3, 3), requires_grad=True
+conv2.bias: shape=(64,), requires_grad=True
+classifier.0.weight: shape=(128, 64), requires_grad=True
+classifier.0.bias: shape=(128,), requires_grad=True
+classifier.3.weight: shape=(10, 128), requires_grad=True
+classifier.3.bias: shape=(10,), requires_grad=True
+
+Clés du state_dict
+========================================
+conv1.weight: shape=(32, 1, 3, 3)
+conv1.bias: shape=(32,)
+conv2.weight: shape=(64, 32, 3, 3)
+conv2.bias: shape=(64,)
+classifier.0.weight: shape=(128, 64)
+classifier.0.bias: shape=(128,)
+classifier.3.weight: shape=(10, 128)
+classifier.3.bias: shape=(10,)

@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.34814814814814815,
+  "precision_macro": 0.500433264614977,
+  "recall_macro": 0.3478530728530728,
+  "f1_macro": 0.26467615344614137,
+  "best_val_accuracy": 0.35185185185185186,
+  "trainable_parameters": 28426,
+  "device": "cpu"
+}
