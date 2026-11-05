@@ -75,3 +75,7 @@ The repository includes guided notebooks, a consolidated executable notebook, a 
 ## License
 
 Released under the [MIT License](LICENSE).
+
+---
+
+[Oussama Oulkaid · GitHub profile](https://github.com/deleted04user) · [Explore the project portfolio](https://github.com/deleted04user/deleted04user/blob/main/PORTFOLIO.md)
